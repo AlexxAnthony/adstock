@@ -1,0 +1,5 @@
+# Extra packages needed to refit the model (not needed by the dashboard)
+-r requirements.txt
+pymc>=5.16
+arviz>=0.19
+pytest>=8

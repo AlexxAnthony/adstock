@@ -1,0 +1,59 @@
+{
+  "channels": [
+    "tv_S",
+    "ooh_S",
+    "print_S",
+    "facebook_S",
+    "search_S"
+  ],
+  "controls": [
+    "competitor_sales_B",
+    "newsletter"
+  ],
+  "media_scale": [
+    158046.573333333,
+    500361.6,
+    31922.3111111111,
+    15400.3914080076,
+    17880.0
+  ],
+  "ctrl_scale": [
+    9984742.0,
+    96236.0
+  ],
+  "y_scale": 3827520.0,
+  "n_weeks": 208,
+  "date_start": "2015-11-23",
+  "date_end": "2019-11-11",
+  "in_sample": {
+    "mape": 6.044831392881504,
+    "r2": 0.9180494915487245
+  },
+  "holdout": {
+    "weeks": 26,
+    "mmm": {
+      "mape": 4.4116416449204605,
+      "r2": 0.9890226701493834,
+      "coverage_90": 100.0
+    },
+    "seasonal_naive": {
+      "mape": 22.293090388354475,
+      "r2": 0.6265291602558485
+    },
+    "no_media_regression": {
+      "mape": 4.73040085136959,
+      "r2": 0.9865887973468853
+    },
+    "diagnostics": {
+      "max_r_hat": 1.0026138379993141,
+      "min_ess_bulk": 1606.0330372432982,
+      "divergences": 0
+    }
+  },
+  "diagnostics": {
+    "max_r_hat": 1.0046250368907785,
+    "min_ess_bulk": 1236.9004728994394,
+    "divergences": 1
+  },
+  "recovery_coverage": 93.33333333333333
+}
