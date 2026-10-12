@@ -3,7 +3,7 @@
 A Bayesian **marketing mix model (MMM)** built from scratch in PyMC, with a Streamlit dashboard
 for channel ROI, response curves, next-quarter forecasting and budget optimisation.
 
-**Live dashboard:** _add Streamlit Cloud link_ | **Code:** https://github.com/AlexxAnthony/adstock
+**Live dashboard:** https://adstock-mmm.streamlit.app| **Code:** https://github.com/AlexxAnthony/adstock
 
 ## The question
 
